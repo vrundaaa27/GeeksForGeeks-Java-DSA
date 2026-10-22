@@ -11,11 +11,11 @@ public class IsInteger {
 
         int n = (int)x;    
 
-        // if (x - n > 0) {
-        //     System.out.println("Is NOT an Integer");
-        // }else{
-        //     System.out.println("Is an Integer");
-        // }
+        if (x - n > 0) {
+            System.out.println("Is NOT an Integer");
+        }else{
+            System.out.println("Is an Integer");
+        }
 
         if (x - n == 0) {
             System.out.println("Is an Integer");
